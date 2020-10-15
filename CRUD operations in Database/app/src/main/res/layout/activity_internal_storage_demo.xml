@@ -13,7 +13,8 @@
         android:layout_height="100dp"
         android:layout_marginTop="150dp"
         android:textSize="40dp"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"/>
 
     <Button
         android:id="@+id/button_save"
@@ -24,7 +25,8 @@
         android:layout_marginTop="100dp"
         android:text="Save Task"
         android:textSize="30dp"
-        android:onClick="save"/>
+        android:onClick="save"
+        android:textColor="@color/colorPrimary"/>
 
     <Button
         android:id="@+id/button_load"
@@ -36,6 +38,7 @@
         android:layout_marginTop="27dp"
         android:onClick="load"
         android:text="Load Saved Task"
-        android:textSize="30dp" />
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"/>
 
 </RelativeLayout>

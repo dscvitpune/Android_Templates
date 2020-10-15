@@ -47,7 +47,7 @@ public class SharedPreferancesDemo extends AppCompatActivity {
                 editText.setText(msg);
 
                 // Toast message
-                Toast.makeText(SharedPreferancesDemo.this, "Entered!!!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(SharedPreferancesDemo.this, "Text is Entered!!!", Toast.LENGTH_SHORT).show();
             }
         });
 

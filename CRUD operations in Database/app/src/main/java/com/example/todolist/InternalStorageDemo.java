@@ -17,7 +17,7 @@ import java.io.InputStreamReader;
 public class InternalStorageDemo extends AppCompatActivity {
 
     // variables
-    public static final String FILE_NAME = "defaultTask.txt";
+    public static final String FILE_NAME = "file.txt";
     EditText editText;
 
     @Override
@@ -40,7 +40,7 @@ public class InternalStorageDemo extends AppCompatActivity {
             fos = openFileOutput(FILE_NAME, MODE_PRIVATE); // Setting filename and mode
             fos.write(text.getBytes()); // writing file
             editText.getText().clear(); // Clearing text after saving it
-            Toast.makeText(this, "Task Saved to " + getFilesDir() + "/" + FILE_NAME, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Task is Saved to " + getFilesDir() + "/" + FILE_NAME, Toast.LENGTH_LONG).show();
         } catch (IOException e) {
             e.printStackTrace();
         } finally{
@@ -75,7 +75,7 @@ public class InternalStorageDemo extends AppCompatActivity {
             editText.setText(sb.toString());
 
             //Toast message
-            Toast.makeText(this, "Loaded!!!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Saved Text Loaded!!", Toast.LENGTH_SHORT).show();
         } catch (IOException e) {
             e.printStackTrace();
         } finally{

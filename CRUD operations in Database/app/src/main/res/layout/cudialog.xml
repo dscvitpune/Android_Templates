@@ -8,7 +8,8 @@
         android:id="@+id/d_task"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Task" />
+        android:hint="Enter Task"
+        android:textColor="@color/colorPrimary"/>
 
     <EditText
         android:id="@+id/d_description"
@@ -17,6 +18,7 @@
         android:layout_below="@id/d_task"
         android:layout_alignParentStart="true"
         android:hint="Enter Task Description"
-        android:inputType="textMultiLine" />
+        android:inputType="textMultiLine"
+        android:textColor="@color/colorPrimary"/>
 
 </RelativeLayout>
