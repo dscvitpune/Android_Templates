@@ -14,7 +14,8 @@
         android:layout_marginTop="150dp"
         android:textSize="50dp"
         android:textAlignment="center"
-        android:hint="Enter here"/>
+        android:hint="Enter here"
+        android:textColor="@color/colorPrimary"/>
 
     <Button
         android:id="@+id/button_enter"
@@ -24,6 +25,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
         android:text="Enter Task"
-        android:textSize="50dp" />
+        android:textSize="50dp"
+        android:textColor="@color/colorPrimary"/>
 
 </RelativeLayout>

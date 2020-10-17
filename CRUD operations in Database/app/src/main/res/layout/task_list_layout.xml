@@ -9,7 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Task Name"
-        android:textSize="30dp"/>
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"/>
 
     <TextView
         android:id="@+id/text_taskdescription"
@@ -17,7 +18,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/text_taskname"
         android:text="Task Description"
-        android:textSize="35dp"/>
+        android:textSize="35dp"
+        android:textColor="@color/colorPrimary"/>
 
     <ImageButton
         android:id="@+id/btn_delete"
@@ -26,6 +28,7 @@
         android:layout_alignParentEnd="true"
         android:src="@android:drawable/ic_menu_delete"
         android:layout_margin="10dp"
-        android:background="@android:color/white" />
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimary"/>
 
 </RelativeLayout>
